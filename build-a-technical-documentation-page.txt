@@ -1,0 +1,106 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main id="main-doc">
+      <section id="Intro" class="main-section">
+        <header id="intro">Intro</header>
+        <p id="introduction">Python is an easy to learn, powerful programming language. It has efficient high-level data structures and a simple but effective approach to object-oriented programming. Python’s elegant syntax and dynamic typing, together with its interpreted nature, make it an ideal language for scripting and rapid application development in many areas on most platforms.</p>
+      </section>
+      <section id="Required_Knowledge" class="main-section">
+        <header id="req_know">Required Knowledge</header>
+        <p id="knowledge">Python does not require any previous experience on coding since then syntax is rather simple. Someone, however, with previous knowledge on programming languages will find Python very easy to understand.
+      </section>
+      <section id="Hello_World" class="main-section">
+        <header id="hello">Hello World</header>
+        <p id="print">To get started with Python, we will preview the all-time favorite "Hello World" prompt.</p>
+        <p id="code_1" class="code"><code>print("Hello World")</code></p>
+        <p>As simple as one-two-three!</p>
+      </section>
+      <section id="First_Steps" class="main-section">
+        <header id="first">First Steps</header>
+        <p>Now we will check some note-worthy elements of Python.</p>
+        <p class="char">Python as a calculator: <code>>>>2+2</code> <code>4</code><code>>>>50 - 5*6</code> <code>20</code></p>
+        <p class="char">If statements: <code>if {statement1}: x = 1</code><code>elif{statement2}: x = 2</code><code>else: x = 0</code>
+        <p class="char">For loops: <code>for i in range(5): print(i)</code>(this will print the number i five times.)</p>
+        <p class="char">The pass statement does nothing. It can be used when a statement is required syntactically but the program requires no action.</p>
+      </section>
+      <section id="Reference" class="main-section">
+        <header id="ref">Reference</header>
+          <p>In conclusion this guide consisted of five topics:
+            <ul>
+              <li>Intro</li>
+              <li>Previously required knowledge</li>
+              <li>Hello World</li>
+              <li>Python as a calculator</li>
+              <li>If, for and pass statements</li>
+            </ul>
+            For more information on the documentation of Python visit <a href="https://docs.python.org/3/tutorial/index.html">here</a>
+      </section>
+    </main>
+    <nav id="navbar">
+      <header>Python</header>
+      <a class="nav-link" href="#Intro">Intro</a>
+      <a class="nav-link" href="#Required_Knowledge">Required Knowledge</a>
+      <a class="nav-link" href="#Hello_World">Hello World</a>
+      <a class="nav-link" href="#First_Steps">First Steps</a>
+      <a class="nav-link" href="#Reference">Reference</a>
+    </nav>
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+*{
+  font-size:27px;
+}
+@media (prefers-reduced-motion: no-preference) {
+  * {
+    scroll-behavior: smooth;
+  }
+}
+
+#navbar {
+  position: fixed;
+  min-width: 290px;
+  top: 0px;
+  left: 0px;
+  width: 300px;
+  height: 100%;
+  border-right: solid;
+    border-right-color: currentcolor;
+  border-color: rgba(0, 22, 22, 0.4);
+}
+#main-doc {
+  position: absolute;
+  margin-left: 310px;
+  padding: 20px;
+  margin-bottom: 110px;
+}
+.nav-link{
+  display:block;
+  margin-bottom:20px;
+  margin-top:20px;
+  border-top: 1px solid #000000;
+  padding-top:10px;
+}
+header{
+  font-size:1.5em;
+  font-weight:bold;
+}
+code{
+  display:block;
+  background-color:rgb(190,190,190);
+}
+
+** end of undefined **
+
